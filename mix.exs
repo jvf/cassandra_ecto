@@ -44,7 +44,7 @@ defmodule CassandraEcto.Mixfile do
     [
       {:cqerl, github: "matehat/cqerl", tag: "v1.0.2", only: :test},
       {:cassandrex, "~> 0.1.0"},
-      {:ecto, "~> 2.1.0"},
+      {:ecto, "~> 2.1"},
       {:espec, "~> 1.2.0", only: :test},
       {:excoveralls, "~> 0.5", only: :test},
       {:credo, "~> 0.5", only: [:dev, :test]},
